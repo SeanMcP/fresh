@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+    <meta name="description" content="Fresh is coming soon.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --body-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        * {
+            margin-top: 0;
+        }
+
+        body {
+            align-items: center;
+            background-color: hsl(240, 10%, 96%);
+            color: hsl(240, 10%, 20%);
+            font-family: var(--body-font, sans-serif);
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        main {
+            font-size: 1.25rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Lato, var(--body-font, sans-serif);
+            font-size: 6rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+        }
+
+        .emoji {
+            bottom: 1rem;
+            font-size: 3rem;
+            position: fixed;
+            right: 1rem;
+        }
+
+        @media screen and (min-width: 500px) {
+            h1 {
+                font-size: 8rem;
+            }
+
+            .emoji {
+                font-size: 5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Fresh</h1>
+        <p>Something new is coming soon.</p>
+        <span class="emoji" aria-hidden="true">🌱</span>
+    </main>
+</body>
+</html>
